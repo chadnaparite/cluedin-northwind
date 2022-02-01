@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Northwind.Provider\Provider.Northwind.csproj" />
+  </ItemGroup>
+</Project>

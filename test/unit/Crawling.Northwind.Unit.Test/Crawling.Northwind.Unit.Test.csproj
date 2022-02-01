@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Northwind.Core\Crawling.Northwind.Core.csproj" />
+    <ProjectReference Include="..\..\..\src\Northwind.Crawling\Crawling.Northwind.csproj" />
+    <ProjectReference Include="..\..\..\src\Northwind.Infrastructure\Crawling.Northwind.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

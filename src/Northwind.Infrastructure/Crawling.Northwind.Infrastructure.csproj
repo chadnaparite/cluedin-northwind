@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Northwind.Core\Crawling.Northwind.Core.csproj" />
+  </ItemGroup>
+</Project>
