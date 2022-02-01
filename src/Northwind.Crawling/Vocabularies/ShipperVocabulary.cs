@@ -11,7 +11,7 @@ namespace CluedIn.Crawling.Northwind.Vocabularies
             VocabularyName = "Northwind Shipper"; 
             KeyPrefix      = "northwind.shipper"; 
             KeySeparator   = ".";
-            Grouping       = NorthwindEntities.Shipper; // TODO: Make sure EntityType is correct.
+            Grouping       = NorthwindEntities.Shippers; // TODO: Make sure EntityType is correct.
 
             //TODO: Make sure that any properties mapped into CluedIn Vocabulary are not in the group.
             AddGroup("Northwind Shipper Details", group =>

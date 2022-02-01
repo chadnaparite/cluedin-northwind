@@ -8,7 +8,7 @@ namespace CluedIn.Provider.Northwind.RelatedEntities
 {
     public class CustomerRelatedEntities : BaseRelatedEntitiesProvider
     {
-        public CustomerRelatedEntities() : base(NorthwindEntities.Customer)
+        public CustomerRelatedEntities() : base(NorthwindEntities.Customers)
         {
         }
 

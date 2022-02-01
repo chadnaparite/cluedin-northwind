@@ -14,7 +14,7 @@ namespace Crawling.Northwind.Unit.Test.ClueProducers
         protected override BaseClueProducer<Customer> Sut =>
             new CustomerClueProducer(_clueFactory.Object);
 
-        protected override EntityType ExpectedEntityType => NorthwindEntities.Customer;
+        protected override EntityType ExpectedEntityType => NorthwindEntities.Customers;
 
         [Theory]
         [InlineAutoData]

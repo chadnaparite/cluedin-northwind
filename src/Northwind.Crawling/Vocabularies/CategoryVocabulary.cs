@@ -11,7 +11,7 @@ namespace CluedIn.Crawling.Northwind.Vocabularies
             VocabularyName = "Northwind Category"; 
             KeyPrefix      = "northwind.category"; 
             KeySeparator   = ".";
-            Grouping       = NorthwindEntities.Category; // TODO: Make sure EntityType is correct.
+            Grouping       = NorthwindEntities.Categories; // TODO: Make sure EntityType is correct.
 
             //TODO: Make sure that any properties mapped into CluedIn Vocabulary are not in the group.
             AddGroup("Northwind Category Details", group =>

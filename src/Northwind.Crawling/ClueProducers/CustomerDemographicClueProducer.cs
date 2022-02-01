@@ -29,7 +29,7 @@ namespace CluedIn.Crawling.Northwind.ClueProducers
 
             if (input.CustomerId != null)
             {
-                factory.CreateIncomingEntityReference(clue, NorthwindEntities.Customer, EntityEdgeType.OwnedBy, input.CustomerId, input.CustomerId);
+                factory.CreateIncomingEntityReference(clue, NorthwindEntities.Customers, EntityEdgeType.OwnedBy, input.CustomerId, input.CustomerId);
             }
             if (input.CustomerTypeId != null)
             {

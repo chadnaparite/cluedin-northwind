@@ -16,7 +16,7 @@ namespace CluedIn.Provider.Northwind.RelatedEntities
         {
             return new List<DataStore.Document.Models.SuggestedSearch>
             {
-                RelatedEntitiesHelper.GetRelationshipForEntityOfType("Customers", EntityEdgeType.OwnedBy, NorthwindEntities.Customer),
+                RelatedEntitiesHelper.GetRelationshipForEntityOfType("Customers", EntityEdgeType.OwnedBy, NorthwindEntities.Customers),
                 RelatedEntitiesHelper.GetRelationshipForEntityOfType("Employees", EntityEdgeType.OwnedBy, NorthwindEntities.Employee),
             };
         }

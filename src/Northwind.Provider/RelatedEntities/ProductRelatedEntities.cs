@@ -16,9 +16,9 @@ namespace CluedIn.Provider.Northwind.RelatedEntities
         {
             return new List<DataStore.Document.Models.SuggestedSearch>
             {
-                RelatedEntitiesHelper.GetRelationshipForEntityOfType("Categories", EntityEdgeType.OwnedBy, NorthwindEntities.Category),
+                RelatedEntitiesHelper.GetRelationshipForEntityOfType("Categories", EntityEdgeType.OwnedBy, NorthwindEntities.Categories),
                 RelatedEntitiesHelper.GetRelationshipForEntityOfType("Order Details", EntityEdgeType.OwnedBy, NorthwindEntities.OrderDetails),
-                RelatedEntitiesHelper.GetRelationshipForEntityOfType("Suppliers", EntityEdgeType.OwnedBy, NorthwindEntities.Supplier),
+                RelatedEntitiesHelper.GetRelationshipForEntityOfType("Suppliers", EntityEdgeType.OwnedBy, NorthwindEntities.Suppliers),
             };
         }
     }
