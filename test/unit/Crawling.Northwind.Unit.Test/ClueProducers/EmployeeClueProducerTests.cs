@@ -14,7 +14,7 @@ namespace Crawling.Northwind.Unit.Test.ClueProducers
         protected override BaseClueProducer<Employee> Sut =>
             new EmployeeClueProducer(_clueFactory.Object);
 
-        protected override EntityType ExpectedEntityType => NorthwindEntities.Employee;
+        protected override EntityType ExpectedEntityType => EntityType.Person;
 
         [Theory]
         [InlineAutoData]

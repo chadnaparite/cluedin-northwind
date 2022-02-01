@@ -10,7 +10,6 @@ namespace CluedIn.Crawling.Northwind.Core.Constants
         public const string Customers           = "/" + nameof(Customers);
         public const string CustomerDemographic = "/" + nameof(CustomerDemographic);
         public const string Demographic         = "/" + nameof(Demographic);
-        public const string Employee            = "/" + nameof(Employee);
         public const string EmployeeTeritory    = "/" + nameof(EmployeeTeritory);
         public const string OrderDetails        = "/" + nameof(OrderDetails);
         public const string Products            = "/" + nameof(Products);
